@@ -1,0 +1,13 @@
+# DESCRIPTION: Verilator output: Timestamp data for --skip-identical.  Delete at will.
+C "-MMD --build -cc -O3 --x-assign fast --x-initial fast --noassert --top-module top /home/xuhaitao/verilator/ex1/vsrc/top.v /home/xuhaitao/verilator/ex1/csrc/main.cpp /home/xuhaitao/verilator/ex1/build/auto_bind.cpp /home/xuhaitao/nvboard/build/nvboard.a -CFLAGS -MMD -CFLAGS -O3 -CFLAGS -I/usr/include/SDL2 -CFLAGS -D_REENTRANT -CFLAGS -I/home/xuhaitao/nvboard/usr/include -CFLAGS -DTOP_NAME=_Vtop_ -LDFLAGS -lSDL2 -LDFLAGS -lSDL2_image -LDFLAGS -lSDL2_ttf --Mdir ./build/obj_dir --exe -o /home/xuhaitao/verilator/ex1/build/top"
+T      4091  7212999  1757037760   470975090  1757037760   470975090 "./build/obj_dir/Vtop.cpp"
+T      2476  7212997  1757037760   468975046  1757037760   468975046 "./build/obj_dir/Vtop.h"
+T      2247  7213003  1757037760   470975090  1757037760   470975090 "./build/obj_dir/Vtop.mk"
+T      1633  7212998  1757037760   470975090  1757037760   470975090 "./build/obj_dir/Vtop__Slow.cpp"
+T       529  7212995  1757037760   467975023  1757037760   467975023 "./build/obj_dir/Vtop__Syms.cpp"
+T       767  7212996  1757037760   468975046  1757037760   468975046 "./build/obj_dir/Vtop__Syms.h"
+T       313  7213004  1757037760   470975090  1757037760   470975090 "./build/obj_dir/Vtop__ver.d"
+T         0        0  1757037760   472975135  1757037760   472975135 "./build/obj_dir/Vtop__verFiles.dat"
+T      1538  7213002  1757037760   470975090  1757037760   470975090 "./build/obj_dir/Vtop_classes.mk"
+S       233  7225255  1757037733   955379592  1757037733   955379592 "/home/xuhaitao/verilator/ex1/vsrc/top.v"
+S   7892640   789272  1748400095   852498992  1598506306           0 "/usr/bin/verilator_bin"
